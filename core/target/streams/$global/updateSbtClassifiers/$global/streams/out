@@ -18,7 +18,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] no default cache defined: set to C:\Users\Sascha\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
 [debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
@@ -1779,9 +1778,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.15!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 762ms :: artifacts dl 52ms
+[debug] :: resolution report :: resolve 795ms :: artifacts dl 68ms
 [debug] 	report for core#core$sbt_2.10;0.1 default produced in F:\Workspaces\projects\web-gen-bundle\core\target\resolution-cache\reports\core-core$sbt_2.10-default.xml
-[debug] 	resolve done (762ms resolve - 52ms download)
+[debug] 	resolve done (795ms resolve - 68ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: core#core$sources_2.10;0.1
 [debug] 	confs: [default]
@@ -2459,6 +2458,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.15!incremental-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.15!logic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.15!main-settings.jar(src)
-[debug] :: resolution report :: resolve 176ms :: artifacts dl 52ms
+[debug] :: resolution report :: resolve 258ms :: artifacts dl 68ms
 [debug] 	report for core#core$sources_2.10;0.1 default produced in F:\Workspaces\projects\web-gen-bundle\core\target\resolution-cache\reports\core-core$sources_2.10-default.xml
-[debug] 	resolve done (176ms resolve - 52ms download)
+[debug] 	resolve done (258ms resolve - 68ms download)

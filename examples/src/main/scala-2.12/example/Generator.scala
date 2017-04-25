@@ -31,7 +31,6 @@ object Generator {
     )
 
     val generator = new Generator("C:/tmp", "ng2gentest", model) with AngularGen
-
     generator.generate
   }
 }

@@ -4,7 +4,7 @@
 		module="angular$sbt_2.10"
 		revision="0.1"
 		status="integration"
-		publication="20170423151551"
+		publication="20170425181041"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

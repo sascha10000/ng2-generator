@@ -4,15 +4,15 @@
 	<info
 		organisation="examples"
 		module="examples$sbt_2.10"
-		revision="0.1"
+		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20170423151554"/>
+		date="20170425181037"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.15" status="release" pubdate="20170409161023" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="no" details="" size="1457" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-sbt\sbt\ivy-0.13.15.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.15/ivys/ivy.xml"/>
-				<caller organisation="examples" name="examples$sbt_2.10" conf="default" rev="0.13.15" rev-constraint-default="0.13.15" rev-constraint-dynamic="0.13.15" callerrev="0.1"/>
+				<caller organisation="examples" name="examples$sbt_2.10" conf="default" rev="0.13.15" rev-constraint-default="0.13.15" rev-constraint-dynamic="0.13.15" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="sbt" type="jar" ext="jar" status="no" details="" size="52851" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.15.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.15/jars/sbt.jar"/>
