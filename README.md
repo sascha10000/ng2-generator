@@ -27,7 +27,7 @@ Generates a Angular Project including Components, TS-Classes and a Menue defined
  ## The Generator
  The SimpleGenerator.class should be quite self explanatory, but that is a personal opinion and may not be true.
  
-From the root folder navigate to "src/main/scala-2.12/example". You should find the classes Generator, SimpleGenerator and
+From the root folder navigate to "examples/src/main/scala-2.12/example". You should find the classes Generator, SimpleGenerator and
 a folder called model. The folder contains two classes Item and Person. 
 
 It basically does two things. Defining the Model (S = Show, L = List, N = New, D = Delete) and setting up the project. At the moment only the menu and the routes will be 
