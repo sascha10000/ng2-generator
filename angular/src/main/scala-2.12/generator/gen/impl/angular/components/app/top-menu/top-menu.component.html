@@ -1,0 +1,9 @@
+<ul class="nav-dd">
+  <li class="dd-title" *ngFor="let navi of menu.items">
+    <a class="dd-btn" *ngIf="navi.items === undefined" [routerLink]="navi.routerLink">{{ navi.title }}</a>
+    <a class="dd-btn" *ngIf="navi.items !== undefined">{{ navi.title }}</a>
+    <ul class="dd-menu" *ngIf="navi.items !== undefined">
+      <li *ngFor="let ddi of navi.items"><a [routerLink]="ddi.routerLink">{{ ddi.title }}</a></li>
+    </ul>
+  </li>
+</ul>
